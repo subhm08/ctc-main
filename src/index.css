@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Marcellus&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/Manrope-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Marcellus";
+  src: url("./assets/Marcellus-Regular.ttf");
+}
+
+@theme{
+  --font-manrope: "Manrope";
+  --font-marcellus: "Marcellus";
+}
